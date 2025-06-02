@@ -98,6 +98,7 @@ a:hover{
 
 .menu-links{
     position: absolute;
+    z-index: 10;
     top: 100%;
     right: 0;
     background-color: white;
@@ -122,6 +123,7 @@ a:hover{
 }
 
 .menu-links.open{
+    
     max-height: 300px;
 }
 
@@ -175,6 +177,7 @@ section{
 }
 
 .section__pic-container{
+    
     display: flex;
     height: 400px;
     width: 400px;
@@ -383,6 +386,7 @@ article .icon{
 }
 
 .project-btn{
+    margin-top: 0.5rem;
     color: black;
     border-color: rgb(163, 163, 163);
 }
