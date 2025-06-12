@@ -39,7 +39,7 @@
     padding: 0;
 }
 
-h3 {
+h3 , h4{
     color: var(--secondary-color);
 }
 
@@ -54,6 +54,9 @@ html{
 
 p{
     color: var(--secondary-color-2);
+    gap: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 
 }
 
@@ -255,6 +258,7 @@ section{
     margin-top: 1rem;
     gap: 1rem;
 }
+
 
 /* ICONS */
 
